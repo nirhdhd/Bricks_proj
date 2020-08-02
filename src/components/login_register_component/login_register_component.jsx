@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
-function Foo() {
+function LoginRegister() {
 
     return (
         <div >
@@ -54,4 +54,4 @@ function Foo() {
 
 }
 
-export default Foo;
+export default LoginRegister;

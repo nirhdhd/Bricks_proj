@@ -1,0 +1,50 @@
+.header{
+    background-color:#4a3f35;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+.headerText{
+    margin: auto;
+    color: #fa7d09;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex: 9.5;
+    justify-content: center;
+}
+
+.userName_place{
+    height: 60px;
+    flex: 9.5;
+    font-size: 30px;
+}
+.contentUpper{
+    display: flex;
+    flex-direction: row;
+}
+.menuList{
+height: 500px;
+width: 300px;
+background-color:#4a3f35 ;
+display: flex;
+flex-direction: column;
+
+}
+.menuButton{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logoutHederButton{
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
