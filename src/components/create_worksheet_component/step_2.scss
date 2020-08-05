@@ -14,9 +14,9 @@
 
 .content{
     display: flex;
-    flex-direction: row;
-    flex: 9.5;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .userName_place{
@@ -48,3 +48,36 @@ flex-direction: column;
     margin-top: 10px;
     margin-right: 10px;
 }
+
+.input_place{
+    width: 800px;
+    height: 620px;
+    margin-top: 50px;
+    
+    border:2px solid black ;
+    border-radius: 5px;
+
+}
+.nextStepButton{
+    width: 200px;
+    height: 100px;
+    background-color: #fa7d09;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.backStepButton{
+    height: 100px;
+    background-color: #4a3f35;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fa7d09;
+}
+.selectedWords_place{
+   
+    height: 620px;
+    margin-top: 50px;
+    margin-left: 10px;
+    width:400px;
+    background-color: #ffbe81;
+}
+
