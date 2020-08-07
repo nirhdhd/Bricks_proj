@@ -3,3 +3,13 @@ https://colorhunt.co/palette/192064
 
 
 
+
+
+במה אנחנו משתמשים בפרוייקט 
+
+*react material
+*scss
+*react router
+
+
+
