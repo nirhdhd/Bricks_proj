@@ -1,34 +1,34 @@
-.header{
+.step3_header{
     background-color:#4a3f35;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     }
-.headerText{
+.step3_headerText{
     margin: auto;
     color: #fa7d09;
     font-size: 40px;
     margin-left: 10px;
 }
 
-.content{
+.step3_content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.userName_place{
+.step3_userName_place{
     height: 60px;
     flex: 9.5;
     font-size: 30px;
 }
-.contentUpper{
+.step3_contentUpper{
     display: flex;
     flex-direction: row;
 }
-.menuList{
+.step3_menuList{
 height: 500px;
 width: 300px;
 background-color:#4a3f35 ;
@@ -36,20 +36,20 @@ display: flex;
 flex-direction: column;
 
 }
-.menuButton{
+.step3_menuButton{
     height: 50px;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
-.logoutHederButton{
+.step3_logoutHederButton{
     height: 40px;
     width: 100px;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.input_place{
+.step3_input_place{
     width: 800px;
     height: 620px;
     margin-top: 50px;
@@ -58,26 +58,31 @@ flex-direction: column;
     border-radius: 5px;
 
 }
-.nextStepButton{
+.step3_nextStepButton{
     width: 200px;
     height: 100px;
     background-color: #fa7d09;
     margin-top: 10px;
     font-size: 20px;
 }
-.backStepButton{
+.step3_backStepButton{
     height: 100px;
     background-color: #4a3f35;
     margin-top: 10px;
     font-size: 20px;
-    color: #fa7d09;
+    color: white;
 }
-.selectedWords_place{
+.step3_selectedWords_place{
    
     height: 620px;
     margin-top: 50px;
     margin-left: 10px;
     width:400px;
     background-color: #ebebeb;
+}
+.setting{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -1px;
 }
 

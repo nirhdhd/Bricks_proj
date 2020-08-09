@@ -12,7 +12,7 @@ import { withRouter, useHistory } from "react-router-dom";
 import Login from "./login_component/login_component"
 import Register from "./register_component/register_component"
 
-function LoginRegister() {
+function Enter() {
   return (
     <div>
 
@@ -21,11 +21,11 @@ function LoginRegister() {
       </div>
 
       <div style={{ display: "flex", flexDirection: "row" }}>
-        <div style={{ display: "flex", flex: "1", flexDirection: "row", justifyContent: "end" }}> <Login /></div>
-        <div style={{ display: "flex", flex: "1", flexDirection: "row", justifyContent: "end" }}> <Register /></div>
+        <Login />
+        <Register />
       </div>
     </div>
   );
 }
 
-export default withRouter(LoginRegister);
+export default withRouter(Enter);

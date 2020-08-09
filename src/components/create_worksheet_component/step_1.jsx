@@ -1,36 +1,42 @@
 import React from "react";
 import "./step_1.scss";
-import { withRouter,useHistory } from "react-router-dom";
+import { withRouter, useHistory } from "react-router-dom";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 
 function Step_1(props) {
+  let history = useHistory();
   return (
     <div>
-      <div className="header">
-        <span className="headerText">Bricks</span>
-        <Button className="logoutHederButton" variant="contained">
+      <div className="step1_header">
+        <span className="step1_headerText">Bricks</span>
+        <Button className="step1_logoutHederButton" variant="contained">
           logout
         </Button>
       </div>
 
-      <div className="content">
+      <div className="step1_content">
         <TextField
           label="Your text goes here :)"
           variant="outlined"
-          className="input_place"
+          className="step1_input_place"
           multiline
           rows={30}
         />
-        <Button
-          // onClick={() => props.history.pushState("/step_2")}
-          className="nextStepButton"
-          variant="contained"
-        >
-          next step
+        <div>
+          <Button
+            className="step1_backStepButton"
+            variant="contained"
+            onClick={() => history.push("/home")}>back to home page</Button>
+          <Button
+            className="step1_nextStepButton"
+            variant="contained"
+            onClick={() => history.push("/createWorksheet/step_2")}
+          >
+            next step
         </Button>
+        </div>
       </div>
-      <div> </div>
     </div>
   );
 }

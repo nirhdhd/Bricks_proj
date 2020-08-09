@@ -1,11 +1,9 @@
 import React from "react";
 import "./home_component.scss";
 import { withRouter, useHistory } from "react-router-dom";
-
-import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 
-function Enter() {
+function Home() {
   let history = useHistory();
   return (
     <div>
@@ -42,4 +40,4 @@ function Enter() {
   );
 }
 
-export default withRouter(Enter);
+export default withRouter(Home);
