@@ -5,7 +5,7 @@ import { withRouter, useHistory } from "react-router-dom";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 
-function HomeComponent() {
+function Enter() {
   let history = useHistory();
   return (
     <div>
@@ -42,4 +42,4 @@ function HomeComponent() {
   );
 }
 
-export default withRouter(HomeComponent);
+export default withRouter(Enter);
