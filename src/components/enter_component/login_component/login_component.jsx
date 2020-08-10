@@ -4,7 +4,7 @@ import "./login_component.scss";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { withRouter, useHistory } from "react-router-dom";
-//import { signInWithGoogle } from "../../firebase/firebase.utils";
+import { signInWithGoogle } from "../../../firebase/firebase.utils";
 
 function Login() {
 
@@ -35,11 +35,12 @@ function Login() {
                          </Button>
                     <div style={{ width: "20px" }}></div>
                     <Button
-                        //onClick={signInWithGoogle}
+                        onClick={signInWithGoogle}
                         className="login_ButtonLogin"
                         variant="contained"
                     >
                         sign in with google
+                      
                         </Button>
                 </div>
 

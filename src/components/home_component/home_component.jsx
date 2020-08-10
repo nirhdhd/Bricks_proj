@@ -16,7 +16,7 @@ function Home() {
 
       <div style={{ display: "flex" }}>
         <div style={{ display: "flex", flex: "0.5" }}></div>
-        <div className="userName_place">welcom user</div>
+        <div className="userName_place">welcome user</div>
       </div>
 
       <div className="contentUpper">
