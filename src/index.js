@@ -11,7 +11,7 @@ import Step_2 from "./components/create_worksheet_component/step_2";
 import Step_3 from "./components/create_worksheet_component/step_3";
 import Enter from "./components/enter_component/enter_component.jsx"
 
-import { auth } from './firebase/firebase.utils'
+import { auth, createUserProfileDocument } from './firebase/firebase.utils'
 
 
 
@@ -19,13 +19,12 @@ import { auth } from './firebase/firebase.utils'
 function App() {
 
   let unsubscribeFromAuth = () => null;
-
   const [currentUser, setCurrentUser] = useState(null); //user auth
 
   useEffect(() => {
-    unsubscribeFromAuth = auth.onAuthStateChanged(user => {
-      setCurrentUser(user)
-      console.log(user)
+    unsubscribeFromAuth = auth.onAuthStateChanged(async user => {
+      console.log('user', user);
+      createUserProfileDocument(user);
     });
 
     return () => {
